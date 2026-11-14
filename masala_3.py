@@ -7,5 +7,6 @@ if nomi in mahsulotlar:
     mahsulotlar[nomi] = yangi_narx
     print("Narx yangilandi:")
     print(mahsulotlar)
+    
 else:
     print("Bunday maxsulot mavjud emas")

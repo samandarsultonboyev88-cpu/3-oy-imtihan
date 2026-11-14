@@ -7,6 +7,7 @@ def natija(sonlar):
     print("SJuft sonlar yigindisi:", juft_son)
     print("Toq sonlar yigindisi:", toq_son)
     print("Eng katta son:", katta_son)
-    
+
 sonlar = [12, 7, 5, 18, 9, 4]
+
 natija(sonlar)

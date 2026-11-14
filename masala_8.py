@@ -1,10 +1,11 @@
 import json
 
 with open("products.json", "r", encoding="utf-8") as file:
-    
+
     mahsulotlar = json.load(file)
 
 nom = input("Mahsulot nomi: ")
+
 miqdor = int(input("Yangi miqdor: "))
 
 for m in mahsulotlar:

@@ -7,4 +7,5 @@ yigindi = 0
 for son in matritsa:
     for sonlar in son:
         yigindi += sonlar
+        
 print(f"Yigindi: {yigindi}")

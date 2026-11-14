@@ -7,6 +7,7 @@ mahsulotlar = [
 ]
 
 with open("products.csv", "a", newline="") as f:
+    
     writer = csv.writer(f, delimiter=",")
 
     writer.writerow(["nom", "narx", "son"])
